@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Smart WiFi Switcher - 智能WiFi切换器</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <header class="header">
+            <h1>🎵 Smart WiFi Switcher</h1>
+            <p class="subtitle">智能WiFi信号检测与自动切换</p>
+        </header>
+
+        <div class="features">
+            <div class="feature-card">
+                <div class="icon">🔍</div>
+                <h3>自动扫描</h3>
+                <p>3-5秒快速扫描附近WiFi网络</p>
+            </div>
+
+            <div class="feature-card">
+                <div class="icon">📊</div>
+                <h3>信号检测</h3>
+                <p>实时显示dBm值和可视化信号条</p>
+            </div>
+
+            <div class="feature-card">
+                <div class="icon">🔄</div>
+                <h3>自动切换</h3>
+                <p>信号弱时自动切换到强WiFi</p>
+            </div>
+
+            <div class="feature-card">
+                <div class="icon">⚙️</div>
+                <h3>灵活设置</h3>
+                <p>可调信号阈值和扫描间隔</p>
+            </div>
+        </div>
+
+        <div class="download-section">
+            <h2>📥 下载源码</h2>
+
+            <div class="download-options">
+                <div class="option">
+                    <h3>方式1: Git克隆</h3>
+                    <p class="command">git clone https://github.com/qq786782022/openclaw-backups.git</p>
+                    <p>然后进入: cd openclaw-backups/skills/custom/intelligent-assistant/wifi-switcher-app</p>
+                    <button onclick="copyCommand('git clone https://github.com/qq786782022/openclaw-backups.git')">复制命令</button>
+                </div>
+
+                <div class="option">
+                    <h3>方式2: GitHub网页</h3>
+                    <p>访问:</p>
+                    <a href="https://github.com/qq786782022/openclaw-backups/tree/master/skills/custom/intelligent-assistant/wifi-switcher-app" target="_blank">
+                        https://github.com/qq786782022/openclaw-backups/tree/master/skills/custom/intelligent-assistant/wifi-switcher-app
+                    </a>
+                    <button onclick="copyUrl('https://github.com/qq786782022/openclaw-backups/tree/master/skills/custom/intelligent-assistant/wifi-switcher-app')">复制链接</button>
+                </div>
+            </div>
+
+            <div class="warning">
+                <h3>⚠️ 注意</h3>
+                <ul>
+                    <li>源码需要用 <strong>Android Studio</strong> 打开并编译</li>
+                    <li>首次编译需要5-10分钟（下载Gradle和依赖）</li>
+                    <li>需要 <strong>Java 17</strong> 环境</li>
+                    <li>需要 <strong>Android SDK</strong> (API 33)</li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="usage-guide">
+            <h2>🚀 使用指南</h2>
+
+            <div class="step">
+                <span class="step-number">1</span>
+                <div class="step-content">
+                    <h3>打开Android Studio</h3>
+                    <p>选择 "Open an Existing Project"</p>
+                </div>
+            </div>
+
+            <div class="step">
+                <span class="step-number">2</span>
+                <div class="step-content">
+                    <h3>选择项目目录</h3>
+                    <p>选择: openclaw-backups/skills/custom/intelligent-assistant/wifi-switcher-app</p>
+                </div>
+            </div>
+
+            <div class="step">
+                <span class="step-number">3</span>
+                <div class="step-content">
+                    <h3>等待Gradle同步</h3>
+                    <p>首次同步需要5-10分钟</p>
+                </div>
+            </div>
+
+            <div class="step">
+                <span class="step-number">4</span>
+                <div class="step-content">
+                    <h3>连接手机并运行</h3>
+                    <p>开启USB调试，点击Run按钮</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="info-section">
+            <h2>📊 技术信息</h2>
+
+            <div class="info-grid">
+                <div class="info-item">
+                    <h4>📱 最低版本</h4>
+                    <p>Android 5.0 (API 21)</p>
+                </div>
+
+                <div class="info-item">
+                    <h4>🎯 目标版本</h4>
+                    <p>Android 13 (API 33)</p>
+                </div>
+
+                <div class="info-item">
+                    <h4>💻 编程语言</h4>
+                    <p>Kotlin 1.9</p>
+                </div>
+
+                <div class="info-item">
+                    <h4>🎨 UI框架</h4>
+                    <p>Material Design 3</p>
+                </div>
+
+                <div class="info-item">
+                    <h4>📦 代码行数</h4>
+                    <p>~6000行</p>
+                </div>
+
+                <div class="info-item">
+                    <h4>⏱️ 编译时间</h4>
+                    <p>首次5-10分钟</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="resources">
+            <h2>🔗 相关资源</h2>
+
+            <div class="resource-links">
+                <a href="https://github.com/qq786782022/openclaw-backups/tree/master/skills/custom/intelligent-assistant/wifi-switcher-app" target="_blank">
+                    查看源码目录
+                </a>
+                <a href="/docs/wifi-switcher/README.md" target="_blank">
+                    完整文档
+                </a>
+                <a href="/docs/wifi-switcher/usage.md" target="_blank">
+                    使用指南
+                </a>
+            </div>
+        </div>
+
+        <footer class="footer">
+            <p>创建于 2026-02-18 | AI助手完全自主开发</p>
+            <p>GitHub仓库: <a href="https://github.com/qq786782022/openclaw-backups" target="_blank">https://github.com/qq786782022/openclaw-backups</a></p>
+        </footer>
+    </div>
+
+    <script>
+        function copyCommand(text) {
+            navigator.clipboard.writeText(text).then(() => {
+                alert('命令已复制！');
+            });
+        }
+
+        function copyUrl(text) {
+            navigator.clipboard.writeText(text).then(() => {
+                alert('链接已复制！');
+            });
+        }
+    </script>
+</body>
+</html>

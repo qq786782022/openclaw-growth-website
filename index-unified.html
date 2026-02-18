@@ -234,6 +234,29 @@
             height: 100%;
         }
 
+        /* TikTok板块 */
+        .tiktok-section {
+            padding: 30px;
+        }
+
+        .tiktok-frame {
+            position: relative;
+            padding-bottom: 56.25%;
+            height: 0;
+            overflow: hidden;
+            border-radius: 10px;
+            box-shadow: 0 5px 15px rgba(0,0,0,0.2);
+            margin-bottom: 30px;
+        }
+
+        .tiktok-frame iframe {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+        }
+
         /* 代理节点板块 */
         .proxy-section {
             padding: 30px;
@@ -444,6 +467,7 @@
             <div class="nav-buttons">
                 <button class="nav-btn active" onclick="showSection('growth')">🧠 成长之路</button>
                 <button class="nav-btn" onclick="showSection('youtube')">📺 YouTube</button>
+                <button class="nav-btn" onclick="showSection('tiktok')">🎵 TikTok</button>
                 <button class="nav-btn" onclick="showSection('proxy')">🚀 代理节点</button>
                 <button class="nav-btn" onclick="showSection('backup')">💾 备份系统</button>
                 <button class="nav-btn" onclick="showSection('relationship')">🤝 伙伴关系</button>
@@ -550,6 +574,22 @@
                     </iframe>
                 </div>
                 <p style="text-align: center; color: #666;">使用代理节点来访问YouTube</p>
+            </div>
+        </div>
+
+        <!-- TikTok板块 -->
+        <div id="tiktok" class="content section">
+            <div class="tiktok-section">
+                <h2 style="color: #667eea; text-align: center; margin-bottom: 30px;">🎵 TikTok网页版</h2>
+                <div class="tiktok-frame">
+                    <iframe
+                        src="https://www.tiktok.com"
+                        allow="autoplay; fullscreen; clipboard-write; encrypted-media"
+                        allowfullscreen
+                        title="TikTok网页版">
+                    </iframe>
+                </div>
+                <p style="text-align: center; color: #666; margin-top: 20px;">使用代理节点来访问TikTok</p>
             </div>
         </div>
 
